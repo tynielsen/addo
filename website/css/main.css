@@ -153,7 +153,7 @@ body {
     width: 1200px;
     height: 100%;
     position: relative;
-    margin: 0 auto;
+    margin: 0;
 }
 
 a {
@@ -224,6 +224,35 @@ p {
  **************************************/
 
 form {
+    margin: 65px 0 0 625px;
+
+}
+input {
+    background: rgba(173, 169, 165, 0.75);
+    width: 333px;
+    height: 33px;
+    display: block;
+    padding: 5px;
+    font-size: 24px;
+    font-weight: 100;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border-radius: 15px;
+}
+input::-webkit-input-placeholder {
+ color: #ffffff;
+}
+input:-mox-input-placeholder {
+    color: #ffffff;
+}
+input:-ms-input-placeholder {
+    color: #ffffff;
 }
 
 
