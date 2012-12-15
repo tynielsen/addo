@@ -96,6 +96,11 @@ textarea {
 
 
 
+
+/*******************************************
+ *********** Begin Custom Styles ***********
+ *******************************************/
+
 /* ==========================================================================
  ****************************************************************************
  *
@@ -108,7 +113,7 @@ textarea {
 
 /**************************************
 
-    @Section: Reset Defaults
+    @Section: Reset Default Styles
 
  **************************************/
 
@@ -148,10 +153,21 @@ table {border-collapse: collapse;border-spacing: 0;}
 
  **************************************/
 
+@font-face {
+    font-family: 'raleway';
+    src: url('fonts/raleway_thin-webfont.eot');
+    src: url('fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway_thin-webfont.woff') format('woff'),
+         url('fonts/raleway_thin-webfont.ttf') format('truetype'),
+         url('fonts/raleway_thin-webfont.svg#ralewaythin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background: #ffffff;
-    color: ;
-    font-family: helvetica, arial, sans-serif;
+    color: #676462;
+    font-family: 'raleway', helvetica, arial, sans-serif;
 }
 
 .wrapper {
@@ -226,11 +242,13 @@ form {
 
 input {
     background: rgba(173, 169, 165, 0.80);
+    font-family: 'raleway', helvetica, arial, sans-serif;
     width: 333px;
-    height: 33px;
+    height: 28px;
     display: block;
-    padding: 5px 5px 5px 10px;
+    padding: 11px 5px 5px 10px;
     font-size: 24px;
+    line-height: 1;
     font-weight: 100;
     color: #ffffff;
     text-transform: uppercase;
@@ -376,7 +394,10 @@ footer {
 }
 
 .slide-4 {
-    background: #eaeaea url(../img/slide-4-bg.png) no-repeat 0 0;
+    background-image: url(../img/slide-4-bg-new.png), url(../img/fabric-bg.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 0 0;
+    background-color: #eaeaea;
 }
 
 .slide-4 p {
@@ -388,7 +409,10 @@ footer {
 }
 
 .slide-5 {
-    background: #eaeaea url(../img/slide-5-bg.png) no-repeat 0 0;
+    background-image: url(../img/slide-5-bg.png), url(../img/fabric-bg.jpg);
+    background-repeat: no-repeat, repeat-x;
+    background-position: 0 0;
+    background-color: #eaeaea;
 }
 
 .slide-5 p {
@@ -434,6 +458,43 @@ footer {
     text-indent: -9999px;
     margin: 75px 0 0 35px;
 }
+
+
+/**************************************
+
+    @Section: Watch Page Content
+
+ **************************************/
+
+ .watch-page {
+
+ }
+
+ .watch-page .main-content {
+    padding: 20px 0 0 180px;
+ }
+
+
+ /**************************************
+
+    @Section: About Page Content
+
+ **************************************/
+
+ .about-page {
+
+ }
+
+ .about-page .main-content {
+    padding: 20px 0 0 180px;
+ }
+
+
+
+/*******************************************
+ ************ End Custom Styles ************
+ *******************************************/
+
 
 
 /* ==========================================================================
