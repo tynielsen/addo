@@ -390,11 +390,11 @@ footer {
     width: 521px;
     height: 276px;
     text-indent: -9999px;
-    margin: 200px 0 0 365px;
+    margin: 190px 0 0 390px;
 }
 
 .slide-4 {
-    background-image: url(../img/slide-4-bg-new.png), url(../img/fabric-bg.jpg);
+    background-image: url(../img/slide-4-bg.png), url(../img/fabric-bg.jpg);
     background-repeat: no-repeat, repeat-x;
     background-position: 0 0;
     background-color: #eaeaea;
@@ -405,11 +405,11 @@ footer {
     width: 775px;
     height: 664px;
     text-indent: -9999px;
-    margin: 7px 0 0 40px;
+    margin: 7px 0 0 110px;
 }
 
 .slide-5 {
-    background-image: url(../img/slide-5-bg.png), url(../img/fabric-bg.jpg);
+    background-image: url(../img/slide-5-bg-new.png), url(../img/fabric-bg.jpg);
     background-repeat: no-repeat, repeat-x;
     background-position: 0 0;
     background-color: #eaeaea;
@@ -420,11 +420,11 @@ footer {
     width: 349px;
     height: 45px;
     text-indent: -9999px;
-    margin: 300px 0 0 600px;
+    margin: 300px 0 0 640px;
 }
 
 .slide-6 {
-    background: url(../img/slide-6-bg.png) no-repeat 0 10px;
+    background: url(../img/slide-6-bg-new.png) no-repeat 0 10px;
 }
 
 .slide-6 p {
@@ -432,11 +432,11 @@ footer {
     width: 599px;
     height: 46px;
     text-indent: -9999px;
-    margin: 570px 0 0 280px;
+    margin: 570px 0 0 240px;
 }
 
 .slide-7 {
-    background: url(../img/slide-7-bg.png) no-repeat 0 45px;
+    background: url(../img/slide-7-bg-new.png) no-repeat 0 0;
 }
 
 .slide-7 p {
@@ -448,7 +448,7 @@ footer {
 }
 
 .slide-8 {
-    background: url(../img/slide-8-bg.png) no-repeat 0 165px;
+    background: url(../img/slide-8-bg-new.png) no-repeat 0 0;
 }
 
 .slide-8 p {
@@ -457,6 +457,33 @@ footer {
     height: 102px;
     text-indent: -9999px;
     margin: 75px 0 0 35px;
+}
+
+.humans-group-of-guys {
+    display: block;
+    margin: 20px 0 0;
+}
+
+.our-guy {
+    position: absolute;
+    top: 250px;
+    left: 578px;
+}
+
+.humans-kids {
+    display: block;
+    margin: 112px 0 0 198px;
+}
+
+.our-lady {
+    position: absolute;
+    top: 274px;
+    left: 485px;
+}
+
+.humans-family {
+    float: left;
+    margin: 72px 0 0 199px;
 }
 
 
