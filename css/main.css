@@ -464,26 +464,26 @@ footer {
     margin: 20px 0 0;
 }
 
-.our-guy {
-    position: absolute;
-    top: 250px;
-    left: 578px;
-}
-
 .humans-kids {
     display: block;
     margin: 112px 0 0 198px;
 }
 
-.our-lady {
-    position: absolute;
-    top: 274px;
-    left: 485px;
-}
-
 .humans-family {
     float: left;
     margin: 72px 0 0 199px;
+}
+
+.humans-our-guy {
+    position: absolute;
+    top: 250px;
+    left: 578px;
+}
+
+.humans-our-lady {
+    position: absolute;
+    top: 274px;
+    left: 485px;
 }
 
 
