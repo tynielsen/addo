@@ -346,7 +346,6 @@ footer {
 
 .slide {
     padding-left: 180px;
-    position: relative;
     height: 675px;
     overflow: hidden;
 }
@@ -474,15 +473,26 @@ footer {
     margin: 72px 0 0 199px;
 }
 
-.humans-our-guy {
-    position: absolute;
+.guy-fixed {
+    position: fixed;
     top: 250px;
     left: 578px;
 }
-
-.humans-our-lady {
+.guy-absolute {
     position: absolute;
-    top: 274px;
+    top: 920px;
+    left: 578px;
+}
+
+.lady-fixed {
+    position: fixed;
+    top: 285px;
+    left: 485px;
+}
+
+.lady-absolute-1 {
+    position: absolute;
+    top: 956px;
     left: 485px;
 }
 
