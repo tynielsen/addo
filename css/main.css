@@ -228,7 +228,10 @@ em {
     font-style: oblique;
 }
 
-h1 {}
+h1 {
+    font-size: 34px;
+    text-transform: uppercase;
+}
 h2 {}
 h3 {}
 p {}
@@ -513,12 +516,17 @@ footer {
 
  **************************************/
 
- .watch-page {
-
+ body.watch-page {
+    background: url(../img/watch-bg.jpg) repeat center 0;
  }
 
  .watch-page .main-content {
-    padding: 20px 0 0 180px;
+    padding: 120px 0 0 120px;
+ }
+
+ .watch-page .video-container {
+    width: 800px;
+    margin: auto;
  }
 
 
@@ -528,14 +536,21 @@ footer {
 
  **************************************/
 
- .about-page {
-
- }
+ .about-page {}
 
  .about-page .main-content {
-    padding: 20px 0 0 180px;
+    padding: 120px 60px 0 240px;
  }
 
+ .about-page .main-content h1 {
+    margin-bottom: 40px;
+ }
+
+ .about-page .main-content p {
+    font-size: 28px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+ }
 
 
 /*******************************************
