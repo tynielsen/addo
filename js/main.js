@@ -53,6 +53,14 @@ $(function() {
     }
     if(this.scrollY > 4630) {
       $('.slide-8 p').fadeIn('fast');
+      
+      //show view more arrow only if it isn't already showing, don't want this to keep firing
+      if($('.arrow-viewMore').is(':hidden')) {
+        setTimeout(function() {
+          console.log('test');
+          $('.arrow-viewMore').fadeIn('fast');
+        }, 2000);
+      }
     }
   });
 

@@ -362,6 +362,7 @@ footer {
     height: 108px;
     margin: 153px 0 0 -40px;
     text-indent: -9999px;
+    display: none;
 }
 
 .slide {
