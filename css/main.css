@@ -387,14 +387,14 @@ footer {
     margin: 140px 0 0 15px;
 }
 
-.slide-3 { background: #eaeaea url(../img/slide-3-bg.png) no-repeat 0 30px; }
+.slide-3 { background: #ffffff url(../img/slide-3-bg.png) no-repeat 0 0; }
 
 .slide-3 p {
     background: url(../img/slide-3-paragraph.png) no-repeat 0 0;
     width: 521px;
     height: 276px;
     text-indent: -9999px;
-    margin: 190px 0 0 390px;
+    margin: 215px 0 0 390px;
 }
 
 .slide-4 {
@@ -409,11 +409,11 @@ footer {
     width: 775px;
     height: 664px;
     text-indent: -9999px;
-    margin: 7px 0 0 110px;
+    margin: 7px 0 0 60px;
 }
 
 .slide-5 {
-    background-image: url(../img/slide-5-bg-new.png), url(../img/fabric-bg.jpg);
+    background-image: url(../img/slide-5-bg.png), url(../img/fabric-bg.jpg);
     background-repeat: no-repeat, repeat-x;
     background-position: 0 0;
     background-color: #eaeaea;
@@ -424,10 +424,10 @@ footer {
     width: 349px;
     height: 45px;
     text-indent: -9999px;
-    margin: 300px 0 0 640px;
+    margin: 300px 0 0 585px;
 }
 
-.slide-6 { background: url(../img/slide-6-bg-new.png) no-repeat 0 10px; }
+.slide-6 { background: url(../img/slide-6-bg.png) no-repeat 0 0; }
 
 .slide-6 p {
     background: url(../img/slide-6-paragraph.png) no-repeat 0 0;
@@ -437,17 +437,17 @@ footer {
     margin: 570px 0 0 240px;
 }
 
-.slide-7 { background: url(../img/slide-7-bg-new.png) no-repeat 0 0; }
+.slide-7 { background: url(../img/slide-7-bg.png) no-repeat 0 0; }
 
 .slide-7 p {
     background: url(../img/slide-7-paragraph.png) no-repeat 0 0;
     width: 525px;
     height: 46px;
     text-indent: -9999px;
-    margin: 575px 0 0 315px;
+    margin: 575px 0 0 220px;
 }
 
-.slide-8 { background: url(../img/slide-8-bg-new.png) no-repeat 0 0; }
+.slide-8 { background: url(../img/slide-8-bg.png) no-repeat 0 0; }
 
 .slide-8 .p-container {
     height: 102px;
@@ -469,7 +469,7 @@ footer {
 .humans-kids {
     display: block;
     position: absolute;
-    top: 1027px;
+    top: 934px;
     left: 378px;
 }
 
@@ -482,29 +482,34 @@ footer {
     position: fixed;
     top: 250px;
     left: 578px;
+    z-index: 10;
 }
 .guy-absolute {
     position: absolute;
     top: 920px;
     left: 578px;
+    z-index: 10;
 }
 
 .lady-fixed {
     position: fixed;
     top: 285px;
     left: 485px;
+    z-index: 10;
 }
 
 .lady-absolute-1 {
     position: absolute;
     top: 956px;
     left: 485px;
+    z-index: 10;
 }
 
 .lady-absolute-2 {
     position: absolute;
-    top: 5005px;
+    top: 4996px;
     left: 485px;
+    z-index: 10;
 }
 
 

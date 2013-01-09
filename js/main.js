@@ -7,7 +7,7 @@ $(function() {
 
   $(window).scroll(function() {
     //tracking the movement of the people
-    if(this.scrollY > 670 && this.scrollY < 4721) {
+    if(this.scrollY > 670 && this.scrollY < 4711) {
 
       guy.removeClass('guy-fixed')
          .addClass('guy-absolute');
@@ -15,7 +15,7 @@ $(function() {
       lady.removeClass('lady-absolute-1 lady-absolute-2')
           .addClass('lady-fixed');
 
-    } else if(this.scrollY > 4720) {
+    } else if(this.scrollY > 4710) {
 
       guy.removeClass('guy-fixed')
          .addClass('guy-absolute');
@@ -36,10 +36,10 @@ $(function() {
     if(this.scrollY > 536) {
       $('.slide-2 p').fadeIn('slow');
     }
-    if(this.scrollY > 1145) {
+    if(this.scrollY > 1265) {
       $('.slide-3 p').fadeIn('slow');
     }
-    if(this.scrollY > 2006) {
+    if(this.scrollY > 1985) {
       $('.slide-4 p').fadeIn('slow');
     }
     if(this.scrollY > 2670) {
@@ -51,7 +51,7 @@ $(function() {
     if(this.scrollY > 4010) {
       $('.slide-7 p').fadeIn('slow');
     }
-    if(this.scrollY > 4731) {
+    if(this.scrollY > 4630) {
       $('.slide-8 p').fadeIn('slow');
     }
   });
