@@ -33,26 +33,26 @@ $(function() {
     }
 
     // fading in the paragraphs when they are on screen
-    if(this.scrollY > 536) {
-      $('.slide-2 p').fadeIn('slow');
+    if(this.scrollY > 595) {
+      $('.slide-2 p').fadeIn('fast');
     }
-    if(this.scrollY > 1265) {
-      $('.slide-3 p').fadeIn('slow');
+    if(this.scrollY > 1290) {
+      $('.slide-3 p').fadeIn('fast');
     }
-    if(this.scrollY > 1985) {
-      $('.slide-4 p').fadeIn('slow');
+    if(this.scrollY > 2007) {
+      $('.slide-4 p').fadeIn('fast');
     }
     if(this.scrollY > 2670) {
-      $('.slide-5 p').fadeIn('slow');
+      $('.slide-5 p').fadeIn('fast');
     }
-    if(this.scrollY > 3325) {
-      $('.slide-6 p').fadeIn('slow');
+    if(this.scrollY > 3335) {
+      $('.slide-6 p').fadeIn('fast');
     }
-    if(this.scrollY > 4010) {
-      $('.slide-7 p').fadeIn('slow');
+    if(this.scrollY > 4015) {
+      $('.slide-7 p').fadeIn('fast');
     }
     if(this.scrollY > 4630) {
-      $('.slide-8 p').fadeIn('slow');
+      $('.slide-8 p').fadeIn('fast');
     }
   });
 

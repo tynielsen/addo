@@ -348,6 +348,22 @@ footer {
 
 .main-content {}
 
+.arrow-scrollDown {
+    background: url(../img/arrow-scrollDown.png) no-repeat 0 0;
+    width: 112px;
+    height: 64px;
+    margin: 40px 0 0 390px;
+    text-indent: -9999px;
+}
+
+.arrow-viewMore {
+    background: url(../img/arrow-viewMore.png) no-repeat 0 0;
+    width: 116px;
+    height: 108px;
+    margin: 153px 0 0 -40px;
+    text-indent: -9999px;
+}
+
 .slide {
     padding-left: 180px;
     height: 675px;
@@ -550,6 +566,32 @@ body.watch-page { background: url(../img/watch-bg.jpg) repeat center 0; }
     line-height: 1.4;
     margin-bottom: 25px;
 }
+
+
+ /*************************************
+
+    @Section: Join Page Content
+
+ **************************************/
+ .join-page .main-content {
+    padding: 105px 0 0 220px;
+ }
+
+ .join-page h1 {
+    width: 560px;
+    line-height: 1.4;
+    margin-bottom: 25px;
+    text-transform: none;
+ }
+
+ .join-page p {
+    font-size: 18px;
+    margin-bottom: 37px;
+ }
+
+ .join-page form {
+    margin: 0;
+ }
 
 
 /*******************************************
