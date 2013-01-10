@@ -61,11 +61,11 @@ $(function() {
       //show view more arrow only if it isn't already showing, don't want this to keep firing
       if($('.arrow-viewMore').is(':hidden')) {
         setTimeout(function() {
-          $('.arrow-viewMore').fadeIn(1000);
+          $('.arrow-viewMore').fadeIn('fast');
         }, 2000);
       } else {
         setTimeout(function() {
-          $('.arrow-viewMore').fadeOut(1000);
+          $('.arrow-viewMore').fadeOut('fast');
         }, 500);
       }
     }
@@ -127,14 +127,39 @@ $(function() {
         //show view more arrow only if it isn't already showing, don't want this to keep firing
         if($('.arrow-viewMore').is(':hidden')) {
           setTimeout(function() {
-            $('.arrow-viewMore').fadeIn(1000);
+            $('.arrow-viewMore').fadeIn('fast');
           }, 2000);
         } else {
           setTimeout(function() {
-            $('.arrow-viewMore').fadeOut(1000);
+            $('.arrow-viewMore').fadeOut('fast');
           }, 500);
         }
       }
+    });
+  }
+
+  if(!Modernizr.input.placeholder){
+
+    $('[placeholder]').focus(function() {
+      var input = $(this);
+      if (input.val() == input.attr('placeholder')) {
+      input.val('');
+      input.removeClass('placeholder');
+      }
+    }).blur(function() {
+      var input = $(this);
+      if (input.val() == '' || input.val() == input.attr('placeholder')) {
+      input.addClass('placeholder');
+      input.val(input.attr('placeholder'));
+      }
+    }).blur();
+    $('[placeholder]').parents('form').submit(function() {
+      $(this).find('[placeholder]').each(function() {
+      var input = $(this);
+      if (input.val() == input.attr('placeholder')) {
+        input.val('');
+      }
+      })
     });
   }
 
