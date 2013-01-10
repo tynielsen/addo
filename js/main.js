@@ -9,11 +9,13 @@ $(function() {
     $('.main-content').css('padding-bottom', '300px');
   }
 
-  $(window).scroll(function() {
-    var scrolledDown = window.scrollY;
+  if(document.compatMode == "CSS1Compat") {
+    alert('shit son!');
+  }
 
+  $(window).scroll(function() {
     //tracking the movement of the people
-    if(scrolledDown > 670 && scrolledDown < 4711) {
+    if(this.scrollY > 670 && this.scrollY < 4711) {
 
       guy.removeClass('guy-fixed')
          .addClass('guy-absolute');
@@ -21,7 +23,7 @@ $(function() {
       lady.removeClass('lady-absolute-1 lady-absolute-2')
           .addClass('lady-fixed');
 
-    } else if(scrolledDown > 4710) {
+    } else if(this.scrollY > 4710) {
 
       guy.removeClass('guy-fixed')
          .addClass('guy-absolute');
@@ -39,25 +41,25 @@ $(function() {
     }
 
     // fading in the paragraphs when they are on screen
-    if(scrolledDown > 595) {
+    if(this.scrollY > 595) {
       $('.slide-2 p').fadeIn('fast');
     }
-    if(scrolledDown > 1290) {
+    if(this.scrollY > 1290) {
       $('.slide-3 p').fadeIn('fast');
     }
-    if(scrolledDown > 1790) {
+    if(this.scrollY > 1790) {
       $('.slide-4 p').fadeIn('fast');
     }
-    if(scrolledDown > 2670) {
+    if(this.scrollY > 2670) {
       $('.slide-5 p').fadeIn('fast');
     }
-    if(scrolledDown > 3335) {
+    if(this.scrollY > 3335) {
       $('.slide-6 p').fadeIn('fast');
     }
-    if(scrolledDown > 4015) {
+    if(this.scrollY > 4015) {
       $('.slide-7 p').fadeIn('fast');
     }
-    if(scrolledDown > 4630) {
+    if(this.scrollY > 4630) {
       $('.slide-8 p').fadeIn('fast');
       
       //show view more arrow only if it isn't already showing, don't want this to keep firing
@@ -67,11 +69,11 @@ $(function() {
           $('.arrow-viewMore').fadeIn(1000);
         }, 2000);
       } else {
-      setTimeout(function() {
-        console.log('test');
-        $('.arrow-viewMore').fadeOut(1000);
-      }, 500);
-    }
+        setTimeout(function() {
+          console.log('test');
+          $('.arrow-viewMore').fadeOut(1000);
+        }, 500);
+      }
     }
   });
 
