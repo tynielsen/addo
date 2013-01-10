@@ -247,6 +247,7 @@ form {
 }
 
 input {
+    background: rgb(173, 169, 165); /* For IE8 */
     background: rgba(173, 169, 165, 0.80);
     font-family: 'raleway', helvetica, arial, sans-serif;
     width: 333px;

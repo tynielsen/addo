@@ -61,12 +61,10 @@ $(function() {
       //show view more arrow only if it isn't already showing, don't want this to keep firing
       if($('.arrow-viewMore').is(':hidden')) {
         setTimeout(function() {
-          console.log('test');
           $('.arrow-viewMore').fadeIn(1000);
         }, 2000);
       } else {
         setTimeout(function() {
-          console.log('test');
           $('.arrow-viewMore').fadeOut(1000);
         }, 500);
       }
@@ -130,12 +128,10 @@ $(function() {
         //show view more arrow only if it isn't already showing, don't want this to keep firing
         if($('.arrow-viewMore').is(':hidden')) {
           setTimeout(function() {
-            console.log('test');
             $('.arrow-viewMore').fadeIn(1000);
           }, 2000);
         } else {
           setTimeout(function() {
-            console.log('test');
             $('.arrow-viewMore').fadeOut(1000);
           }, 500);
         }
