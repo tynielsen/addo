@@ -295,6 +295,7 @@ input:-ms-input-placeholder { color: #ffffff; }
  **************************************/
 
 .nav-container {
+    background: #676462; /* for IE8 and under */
     background: rgba(103, 100, 98, 0.85);
     width: 120px;
     height: 100%;
