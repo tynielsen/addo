@@ -10,7 +10,7 @@ $(function() {
   }
 
   $(window).scroll(function() {
-    var scrolledDown = this.scrollY;
+    var scrolledDown = window.scrollY;
 
     //tracking the movement of the people
     if(scrolledDown > 670 && scrolledDown < 4711) {
