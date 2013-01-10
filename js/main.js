@@ -5,6 +5,10 @@ $(function() {
 
   $('.slide-1 p').fadeIn(1500);
 
+  if($(window).height() > 780) {
+    $('.main-content').css('padding-bottom', '300px');
+  }
+
   $(window).scroll(function() {
     //tracking the movement of the people
     if(this.scrollY > 670 && this.scrollY < 4711) {
@@ -39,7 +43,7 @@ $(function() {
     if(this.scrollY > 1290) {
       $('.slide-3 p').fadeIn('fast');
     }
-    if(this.scrollY > 2007) {
+    if(this.scrollY > 1850) {
       $('.slide-4 p').fadeIn('fast');
     }
     if(this.scrollY > 2670) {
@@ -58,9 +62,14 @@ $(function() {
       if($('.arrow-viewMore').is(':hidden')) {
         setTimeout(function() {
           console.log('test');
-          $('.arrow-viewMore').fadeIn('fast');
+          $('.arrow-viewMore').fadeIn(1000);
         }, 2000);
-      }
+      } else {
+      setTimeout(function() {
+        console.log('test');
+        $('.arrow-viewMore').fadeOut(1000);
+      }, 500);
+    }
     }
   });
 
