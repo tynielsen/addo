@@ -10,6 +10,7 @@ $(function() {
   }
 
   $(window).scroll(function() {
+    
     //tracking the movement of the people
     if(this.scrollY > 670 && this.scrollY < 4711) {
 
@@ -40,21 +41,27 @@ $(function() {
     if(this.scrollY > 595) {
       $('.slide-2 p').fadeIn('fast');
     }
+
     if(this.scrollY > 1290) {
       $('.slide-3 p').fadeIn('fast');
     }
+
     if(this.scrollY > 1790) {
       $('.slide-4 p').fadeIn('fast');
     }
+    
     if(this.scrollY > 2670) {
       $('.slide-5 p').fadeIn('fast');
     }
+    
     if(this.scrollY > 3335) {
       $('.slide-6 p').fadeIn('fast');
     }
+    
     if(this.scrollY > 4015) {
       $('.slide-7 p').fadeIn('fast');
     }
+    
     if(this.scrollY > 4630) {
       $('.slide-8 p').fadeIn('fast');
       
@@ -138,6 +145,7 @@ $(function() {
     });
   }
 
+  // adds in placeholder text for input for IE
   if(!Modernizr.input.placeholder){
 
     $('[placeholder]').focus(function() {
