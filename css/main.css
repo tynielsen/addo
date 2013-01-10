@@ -381,7 +381,6 @@ footer {
 
 .facebook-link a {
     background: url(../img/facebook-icon.png) no-repeat 0 0;
-    background-size: 40px;
     vertical-align: middle;
     display: inline-block;
     width: 40px;
@@ -397,13 +396,8 @@ footer {
 }
 
 .slide p { display: none; }
-
 .slide-1 { background: url(../img/slide-1-bg.png) no-repeat 0 460px; }
-
-.slide-1 .p-container {
-    height: 102px;
-    margin: 125px 0 0 35px;
-}
+.slide-1 .p-container { margin: 125px 0 0 35px; }
 
 .slide-1 p {
     background: url(../img/slide-1-paragraph.png) no-repeat 0 0;
@@ -440,9 +434,7 @@ footer {
 }
 
 .slide-4 {
-    background-image: url(../img/slide-4-bg.png), url(../img/fabric-bg.jpg);
-    background-repeat: no-repeat, repeat-x;
-    background-position: 0 0;
+    background: url(../img/slide-4-bg.png) no-repeat 0 0;
     background-color: #eaeaea;
 }
 
@@ -455,9 +447,7 @@ footer {
 }
 
 .slide-5 {
-    background-image: url(../img/slide-5-bg.png), url(../img/fabric-bg.jpg);
-    background-repeat: no-repeat, repeat-x;
-    background-position: 0 0;
+    background: url(../img/slide-5-bg.png) no-repeat 0 0;
     background-color: #eaeaea;
 }
 

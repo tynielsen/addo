@@ -5,7 +5,7 @@ $(function() {
 
   $('.slide-1 p').fadeIn(1500);
 
-  if($(window).height() > '680px') {
+  if($(window).height() > 680) {
     $('.main-content').css('padding-bottom', '300px');
   }
 
@@ -75,7 +75,6 @@ $(function() {
 
   //temp fix for IE comapatibility
   if($.browser.msie) {
-    alert('hiya');
     $(window).scroll(function() {
       //tracking the movement of the people
       if(document.body.parentNode.scrollTop > 670 && document.body.parentNode.scrollTop < 4711) {
