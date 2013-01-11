@@ -156,13 +156,13 @@ table {border-collapse: collapse;border-spacing: 0;}
 
 
 @font-face {
-    font-family: 'raleway';
+    font-family: raleway;
     src: url('/fonts/raleway_thin-webfont.eot');
     src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
          url('/fonts/raleway_thin-webfont.woff') format('woff'),
          url('/fonts/raleway_thin-webfont.ttf') format('truetype'),
          url('/fonts/raleway_thin-webfont.svg#ralewaythin') format('svg');
-    src: local('raleway'), url("/fonts/raleway_thin-webfont.ttf");
+    src: local(raleway), url("/fonts/raleway_thin-webfont.ttf");
     font-weight: normal;
     font-style: normal;
 }
@@ -170,7 +170,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 body {
     background: #ffffff;
     color: #676462;
-    font-family: 'raleway', helvetica, arial, sans-serif !important;
+    font-family: raleway, helvetica, arial, sans-serif !important;
 }
 
 .wrapper {
@@ -249,7 +249,7 @@ form {
 input {
     background: rgb(173, 169, 165); /* For IE8 */
     background: rgba(173, 169, 165, 0.80);
-    font-family: 'raleway', helvetica, arial, sans-serif;
+    font-family: raleway, helvetica, arial, sans-serif;
     width: 333px;
     height: 28px;
     display: block;
