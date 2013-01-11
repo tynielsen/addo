@@ -155,7 +155,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 
 @font-face {
     font-family: 'raleway';
-    src: url('/fonts/raleway_thin-webfont.ttf') format('embedded-opentype');
+    src: url('/fonts/raleway_thin-webfont.eot');
     src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype');
     src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
          url('/fonts/raleway_thin-webfont.woff') format('woff'),
