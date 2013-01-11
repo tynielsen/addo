@@ -155,12 +155,12 @@ table {border-collapse: collapse;border-spacing: 0;}
 
 @font-face {
     font-family: 'raleway';
-    src: url('/fonts/raleway_thin-webfont.eot');
-    src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype');
-    src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/raleway_thin-webfont.woff') format('woff'),
-         url('/fonts/raleway_thin-webfont.ttf') format('truetype'),
-         url('/fonts/raleway_thin-webfont.svg#ralewaythin') format('svg');
+    font-family: 'ralewaythin';
+    src: url('raleway_thin-webfont-webfont.eot');
+    src: url('raleway_thin-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('raleway_thin-webfont-webfont.woff') format('woff'),
+         url('raleway_thin-webfont-webfont.ttf') format('truetype'),
+         url('raleway_thin-webfont-webfont.svg#ralewaythin') format('svg');
     src: local('raleway'), url("/fonts/raleway_thin-webfont.ttf"); /* Firefox 5+ hack */
          
     font-weight: normal;
