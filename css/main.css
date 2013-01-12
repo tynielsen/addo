@@ -8,7 +8,8 @@
  *          #ffffff = White
  *          #000000 = Black
  * 
- *  Fonts Reference:   
+ *  Fonts Reference:
+            'raleway' 
  * 
  **************************************************************************** */
 /* ==========================================================================
@@ -147,6 +148,7 @@ q:before, q:after {content: '';content: none;}
 table {border-collapse: collapse;border-spacing: 0;}
 
 
+
 /**************************************
 
     @Section: Global
@@ -154,18 +156,6 @@ table {border-collapse: collapse;border-spacing: 0;}
  **************************************/
 
 
-
-@font-face {
-    font-family: 'raleway';
-    src: url('/fonts/raleway_thin-webfont.eot');
-    src: url('/fonts/raleway_thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/raleway_thin-webfont.woff') format('woff'),
-         url('/fonts/raleway_thin-webfont.ttf') format('truetype'),
-         url('/fonts/raleway_thin-webfont.svg#ralewaythin') format('svg');
-    src: local('raleway'), url("/fonts/raleway_thin-webfont.ttf");
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
     background: #ffffff;
@@ -259,7 +249,7 @@ input {
     font-weight: 100;
     color: #ffffff;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
     border: 0;
     -webkit-border-radius: 15px;
     -moz-border-radius: 15px;
@@ -271,6 +261,12 @@ input {
 input::-webkit-input-placeholder { color: #ffffff; }
 input:-mox-input-placeholder { color: #ffffff; }
 input:-ms-input-placeholder { color: #ffffff; }
+
+.error {
+    color: #ff0000;
+    display: block;
+    margin: -24px 0 8px 10px;
+}
 
 
 /**************************************
@@ -574,6 +570,7 @@ body.watch-page { background: url(../img/watch-bg.jpg) repeat center 0; }
  **************************************/
 
 .about-page {}
+
 .about-page .main-content { padding: 120px 60px 60px 240px; }
 .about-page .main-content h1 { margin-bottom: 40px; }
 
@@ -594,27 +591,26 @@ body.watch-page { background: url(../img/watch-bg.jpg) repeat center 0; }
     @Section: Join Page Content
 
  **************************************/
- .join-page .main-content {
-    padding: 105px 0 0 220px;
- }
 
- .join-page h1 {
+.join-page .main-content {
+    padding: 105px 0 0 220px;
+}
+
+.join-page h1 {
     width: 560px;
     line-height: 1.4;
     margin-bottom: 25px;
     text-transform: none;
- }
+}
 
- .join-page p {
+.join-page p {
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 34px;
     width: 525px;
- }
+}
 
- .join-page form {
-    margin: 0 0 40px;
- }
+.join-page form { margin: 0 0 40px; }
 
 
 /*******************************************

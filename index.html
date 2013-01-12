@@ -6,16 +6,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        
+
         <title>Addo</title>
-        
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link href="favicon.ico" type="img/ico" rel="icon">
+        <link href="favicon.ico" type="img/png" rel="icon">
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="home-page">
@@ -66,9 +67,9 @@
                         <p>Healing can happen. We can help. Sign up to join our prelaunch community.</p>
                     </div>
                     <img class="humans-family" src="img/humans-img-3.png" alt="Happy Family" title="Happy Family">
-                    <form>
-                        <input type="text" placeholder="NAME" />
-                        <input type="text" placeholder="EMAIL" />
+                    <form action="FormToEmail.php" method="post" enctype="multipart/form-data">
+                        <input type="text" name="name" id="name" placeholder="NAME" />
+                        <input type="text" name="email" id="email" placeholder="EMAIL" />
                     </form>
                     <div class="arrow-viewMore">View More</div>
                     <div class="facebook-link">
@@ -78,9 +79,9 @@
                     </div>
                 </div> <!-- end .slide-8 -->
             </div> <!-- end .main-content -->
-            
+
             <div class="nav-container">
-                <a class="logo" href="index.html">Addo</a>
+                <a class="logo" href="/">Addo</a>
                 <ul class="nav">
                     <li class="nav-1">
                         <a href="about.html">About</a>
