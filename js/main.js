@@ -22,17 +22,17 @@ $(function() {
         var emailaddressVal = $("#email").val();
 
         if($("#name").val() == '') {
-          $("#name").after('<span class="error">Please enter your name.</span>');
+          $("#name").after('<span class="error">**Please enter your name**</span>');
           hasError = true;
         }
 
         if(emailaddressVal == '') {
-          $("#email").after('<span class="error">Please enter your email address.</span>');
+          $("#email").after('<span class="error">**Please enter your email address**</span>');
           hasError = true;
         }
      
         else if(!emailReg.test(emailaddressVal)) {
-          $("#email").after('<span class="error">Enter a valid email address.</span>');
+          $("#email").after('<span class="error">**Please enter a valid email address**</span>');
           hasError = true;
         }
      

@@ -32,16 +32,28 @@
                     <iframe src="http://player.vimeo.com/video/56433232" width="800" height="460" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
                 </div>
+                <div class="lower-elements">
+                    <div class="fb-like-container">
+                        <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2FAddoRecovery&amp;send=false&amp;layout=standard&amp;width=320&amp;show_faces=true&amp;font&amp;colorscheme=light&amp;action=like&amp;height=80&amp;appId=113202962102710" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:320px; height:80px;" allowTransparency="true"></iframe>
+                    </div>
+
+                    <form action="FormToEmail.php" method="post" enctype="multipart/form-data">
+                        <p>Sign up to join our pre-launch community</p>
+                        <input type="text" name="name" id="name" placeholder="NAME" />
+                        <input type="text" name="email" id="email" placeholder="EMAIL" />
+                        <input class="btn-submit" type="submit" value="submit">
+                    </form>
+                </div>
             </div> <!-- end .main-content -->
 
             <div class="nav-container">
                 <a class="logo" href="/" title="Return to Home Page">Addo</a>
                 <ul class="nav">
-                    <li class="nav-1">
-                        <a href="about.html">About</a>
-                    </li>
                     <li class="nav-2">
                         <a href="watch.html">Watch</a>
+                    </li>
+                    <li class="nav-1">
+                        <a href="about.html">About</a>
                     </li>
                     <li class="nav-3">
                         <a href="join.html">Join Us</a>
@@ -57,7 +69,7 @@
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-37744282-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
